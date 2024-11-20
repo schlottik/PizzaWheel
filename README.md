@@ -1,3 +1,6 @@
 # Pizza Wheel README
 
-This website is going to be awesome
+Node Version 18.20.5
+
+npm install
+npm start
