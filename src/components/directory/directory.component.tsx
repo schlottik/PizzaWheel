@@ -4,6 +4,14 @@ import DirectoryItem from '../directory-item/directory-item.component';
 
 import { DirectoryContainer } from './directory.styles';
 
+import PizzaImage from '../../assets/pizza.jpg';
+import AppetizersImage from '../../assets/appetizers.jpg';
+import SaladsImage from '../../assets/salad.jpg';
+import FoldoversImage from '../../assets/foldover.jpg';
+import SubsImage from '../../assets/subs.jpg';
+import DessertsImage from '../../assets/desserts.jpg';
+import ExtrasImage from '../../assets/extras.jpg';
+
 export type DirectoryCategory = {
   id: Key;
   title: string;
@@ -15,43 +23,43 @@ const categories: DirectoryCategory[] = [
   {
     id: 1,
     title: 'Pizza',
-    imageUrl: 'https://i.ibb.co/cvpntL1/hats.png',
+    imageUrl: PizzaImage,
     route: 'shop/hats',
   },
   {
     id: 2,
     title: 'Appetizers',
-    imageUrl: 'https://i.ibb.co/px2tCc3/jackets.png',
+    imageUrl: AppetizersImage,
     route: 'shop/jackets',
   },
   {
     id: 3,
     title: 'Salads',
-    imageUrl: 'https://i.ibb.co/0jqHpnp/sneakers.png',
+    imageUrl: SaladsImage,
     route: 'shop/sneakers',
   },
   {
     id: 4,
     title: 'Foldovers',
-    imageUrl: 'https://i.ibb.co/GCCdy8t/womens.png',
+    imageUrl: FoldoversImage,
     route: 'shop/womens',
   },
   {
     id: 5,
     title: 'Subs',
-    imageUrl: 'https://i.ibb.co/R70vBrQ/men.png',
+    imageUrl: SubsImage,
     route: 'shop/mens',
   },
   {
     id: 6,
     title: 'Desserts',
-    imageUrl: 'https://i.ibb.co/R70vBrQ/men.png',
+    imageUrl: DessertsImage,
     route: 'shop/mens',
   },
   {
     id: 7,
     title: 'Extras',
-    imageUrl: 'https://i.ibb.co/R70vBrQ/men.png',
+    imageUrl: ExtrasImage,
     route: 'shop/mens',
   },
 ];
